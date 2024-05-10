@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Email Template Generator</h1>
+      <div class="form-group">
+        <label for="variableInput">Variable:</label>
+        <input type="text" id="variableInput" placeholder="Enter Variable" />
+      </div>
+      <button onclick="generateTemplate()">Generate Email Template</button>
+      <button onclick="copyToClipboard()">Copy to Clipboard</button>
+      <div class="output" id="output"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
